@@ -7,9 +7,9 @@ A PHP based system that finds errors in the existing block based file system. It
 
 3. Validate that the free block list is accurate this includes
 
-    a.	Making sure the free block list contains ALL of the free blocks
-
-    b.	Make sure than there are no files/directories stored on items listed in the free block list
+    a.  Making sure the free block list contains ALL of the free blocks
+    
+    b.  Make sure than there are no files/directories stored on items listed in the free block list
 
 4. Each directory contains . and .. and their block numbers are correct
 
@@ -19,7 +19,7 @@ A PHP based system that finds errors in the existing block based file system. It
 
 7. That the size is valid for the number of block pointers in the location array. The three possibilities are:
 
-   a. size<blocksize if  indirect=0 and size>0
+   a.   size<blocksize if  indirect=0 and size>0
    
    b.	size<blocksize*length of location array if indirect!=0
    
