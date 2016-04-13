@@ -19,10 +19,10 @@ A PHP based system that finds errors in the existing block based file system. It
 
 7. That the size is valid for the number of block pointers in the location array. The three possibilities are:
 
-   a.   size<blocksize if  indirect=0 and size>0
+   a.   size < blocksize if indirect=0 and size>0
    
-   b.	size<blocksize*length of location array if indirect!=0
+   b.	size < blocksize*length of location array if indirect!=0
    
-   c.	size>blocksize*(length of location array-1) if indirect !=0
+   c.	size > blocksize*(length of location array-1) if indirect !=0
 
 
